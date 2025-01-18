@@ -18,3 +18,10 @@ git add file_name - add a file
 git add . - add all files
 git commit -m "message" - now it's commited
 push - upload local repo to remote repo
+
+for pushing a new folder:
+
+git remote add origin
+git remote -v
+git branch
+git push -u origin main 
